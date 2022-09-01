@@ -1,0 +1,288 @@
+.footer {
+
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.footer-adress {
+    color: white;
+    margin-top: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+
+.footer-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.logo-footer-first {
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+
+
+.number-footer,
+.mail-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.mail-footer {
+    margin-top: 0;
+}
+
+
+
+
+
+.logo-footer {
+    color: #2196F3;
+}
+
+.name-work,
+.footer-number,
+.footer-number {
+    font-weight: 400;
+}
+
+
+
+
+
+.footer-number,
+.footer-mail {
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.footer-item :hover {
+    color: #2196F3
+}
+
+.footer-item :focus {
+    color: var(--accent-text-color);
+}
+
+
+
+.footer-adress:hover {
+    color: #2196F3;
+}
+
+
+.footer-mail:hover {
+    color: #2196F3;
+}
+
+
+.footer-number:hover {
+    color: #2196F3;
+
+}
+
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #2196F3;
+
+}
+
+
+
+.footer-after {
+    margin-left: 70px;
+}
+
+
+.footer-text-icons {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.footer-soc-icon {
+    fill: #ffffff;
+    display: flex;
+}
+
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.footer-soc-item {
+    display: flex;
+    justify-content: center;
+}
+
+
+.subscribe-icon {
+    margin-left: 10px;
+    align-self: center;
+    fill: white;
+}
+
+
+
+.footer-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primery-white-color);
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+
+.footer-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer-subscription-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.feedback {
+    margin-left: 93px;
+}
+
+.feedback-text {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+
+.email-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-bottom: 15px;
+    padding: 15px 16px;
+}
+
+.email-input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    width: 358px;
+    height: 50px;
+}
+
+
+.btn-submit {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px
+}
+
+.btn-submit {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-submit::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+
+.btn-submit:hover {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,56 @@
+.main-page {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+
+.hero {
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main-title {
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hat-bg.jpg);
+    text-align: center;
+    max-width: 1600px;
+    background-size: cover;
+
+
+
+}
+
+
+.main-title-one {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #FFFFFF;
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 auto 30px auto;
+}
+
+
+.buy {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    padding: 10px 32px 10px 32px;
+    border-color: transparent;
+}

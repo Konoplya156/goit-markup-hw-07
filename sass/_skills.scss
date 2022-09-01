@@ -1,0 +1,69 @@
+.skills-soc-icon {
+    fill: #212121
+}
+
+
+.skill-text-list {
+    display: flex;
+}
+
+
+.skill-text {
+    margin-right: 30px;
+
+    width: 270px;
+
+}
+
+
+.skill-page {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.we-skills {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.skill-pages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.skill-text:last-child {
+    margin-right: 0;
+}
+
+
+.skills-soc-link {
+    width: 270px;
+    height: 120px;
+    border: #F5F4FA;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+
+.skills-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

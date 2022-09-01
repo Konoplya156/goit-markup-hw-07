@@ -1,0 +1,42 @@
+.services-text {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    min-height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.photo-tree,
+.team-img,
+.example-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+.tree-photo {
+    padding-bottom: 94px;
+}
+
+.hero-photo {
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.about-item-cards {
+    position: relative
+}
