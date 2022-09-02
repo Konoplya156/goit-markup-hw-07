@@ -6,10 +6,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
-}
-
-
-.clients-soc-link {
+    &-soc-link {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -18,40 +15,39 @@
     align-items: center;
     justify-content: center;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-
-.clients-soc-icon {
+    }
+    
+    
+    &-soc-icon {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-
-.clients-soc {
+    }
+    
+    
+    &-soc {
     display: flex;
     justify-content: center;
     gap: 30px;
-}
+    }
 
+   &-soc-link:hover &-soc-icon,
+   &-soc-link:focus &-soc-icon {
+       fill: #2196F3;
+
+   }
+
+   &-soc-link:hover {
+       border-color: #2196F3;
+   }
+
+}
 
 
 .all-clients {
-    padding-top: 95px;
-    padding-bottom: 95px;
-}
-
-
-.clients-soc-link:hover .clients-soc-icon,
-.clients-soc-link:focus .clients-soc-icon {
-    fill: #2196F3;
-
+padding-top: 95px;
+padding-bottom: 95px;
 }
 
 
 
 
-.clients-soc-link:hover {
-    border-color: #2196F3;
-}

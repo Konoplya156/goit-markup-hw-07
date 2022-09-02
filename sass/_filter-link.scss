@@ -23,16 +23,15 @@
     margin-top: 0;
     padding: 6px 22px;
     border-radius: 4px;
-}
-
-
-
-
-.filter-link:hover {
+    &:hover {
     color: #ffffff;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+    }
 }
+
+
+
 
 
 .section-btn-item {

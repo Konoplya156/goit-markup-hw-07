@@ -1,11 +1,79 @@
-.header .container {
-    display: flex;
 
-}
 
 .header {
     background: var(--bacground-header);
     border: 1px solid #ececec;
+& .container {
+    display: flex;
+    }
+&-stroke {
+    display: block;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(---text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 125ms;
+    }
+&-info-stud,
+&-info-port {
+    margin-right: 50px;
+    }
+    
+    
+&-info-cont {
+    margin-right: 0;
+    }
+    
+    
+&-text {
+    display: flex;
+    align-items: center;
+    }
+
+    
+&-info-num,
+&-info-mail {
+    margin-right: 50px;
+    margin-top: 30px;
+    }
+    
+&-info-num {
+    margin-right: 0;
+    }
+    
+    
+&-info {
+    display: flex;
+    }
+    
+&-list {
+    display: flex;
+    margin-left: auto;
+    }
+    
+    
+    
+&-mail-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    }
+    
+    
+&-phone-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    }
+&-mail-icon:hover {
+    color: #2196F3;
+    }
+    
+&-stroke:hover {
+    color: #2196F3;
+    }
 }
 
 
@@ -23,23 +91,10 @@
 }
 
 
-.logo_header {
+.logo-header {
     color: #2196F3;
 }
 
-
-.header-stroke {
-    display: block;
-    position: relative;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(---text-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 125ms;
-}
 
 
 .current,
@@ -48,56 +103,6 @@
     color: var(--color-logo);
 }
 
-
-.header-info-stud,
-.header-info-port {
-    margin-right: 50px;
-}
-
-
-.header-info-cont {
-    margin-right: 0;
-}
-
-
-.header-text {
-    display: flex;
-    align-items: center;
-}
-
-
-.header-info-num,
-.header-info-mail {
-    margin-right: 50px;
-    margin-top: 30px;
-}
-
-.header-info-num {
-    margin-right: 0;
-}
-
-
-.header-info {
-    display: flex;
-}
-
-.header-list {
-    display: flex;
-    margin-left: auto;
-}
-
-
-
-.header-mail-icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
-
-
-.header-phone-icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
 
 
 
@@ -125,17 +130,7 @@
 }
 
 
-
-.header-stroke:hover {
-    color: #2196F3;
-}
-
-
 .mail:hover {
-    color: #2196F3;
-}
-
-.header-mail-icon:hover {
     color: #2196F3;
 }
 
