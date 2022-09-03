@@ -24,8 +24,6 @@
     }
 &-close-btn {
     position: absolute;
-    display: flex;
-    align-items: center;
     justify-content: center;
     top: 8px;
     right: 8px;
@@ -165,6 +163,9 @@
 &-input:focus+.modal-icon {
     fill: var(--accent-text-color);
         }
+&__close-btn{
+   @extend %sample-list;
+}
 }
 
 

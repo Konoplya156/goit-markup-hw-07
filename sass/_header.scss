@@ -28,13 +28,6 @@
     margin-right: 0;
     }
     
-    
-&-text {
-    display: flex;
-    align-items: center;
-    }
-
-    
 &-info-num,
 &-info-mail {
     margin-right: 50px;
@@ -55,7 +48,9 @@
     margin-left: auto;
     }
     
-    
+&__text {
+    @extend %sample-list
+    }
     
 &-mail-icon {
     fill: currentColor;
