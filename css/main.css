@@ -123,6 +123,14 @@ ul {
   display: flex;
   margin-left: auto;
 }
+.header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .header-mail-icon {
   fill: currentColor;
   margin-right: 10px;
@@ -197,15 +205,6 @@ ul {
   color: #2196F3;
 }
 
-.footer__soc-link, .clients-soc-link, .modal__close-btn, .header__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .modal {
   width: 528px;
   background-color: white;
@@ -245,6 +244,12 @@ ul {
   color: var(--white);
   background: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -374,6 +379,7 @@ ul {
 .modal-input:focus + .modal-icon {
   fill: var(--accent-text-color);
 }
+
 .label {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -668,7 +674,7 @@ ul {
   gap: 10px;
 }
 .team-soc-link:hover .team-soc-icon, .team-soc-link:focus .team-soc-icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 .team-soc-link {
   width: 44px;
@@ -757,6 +763,12 @@ ul {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1026,6 +1038,12 @@ ul {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1101,6 +1119,7 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .logo-footer-first {
   display: inline-block;
   color: white;

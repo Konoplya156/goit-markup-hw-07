@@ -32,6 +32,8 @@
     color: var(--white);
     background: var(--white);
     border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
     border-radius: 50%;
     cursor: pointer;
     }
@@ -163,9 +165,6 @@
 &-input:focus+.modal-icon {
     fill: var(--accent-text-color);
         }
-&__close-btn{
-   @extend %sample-list;
-}
 }
 
 
