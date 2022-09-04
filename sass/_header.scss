@@ -3,30 +3,13 @@
 .header {
     background: var(--bacground-header);
     border: 1px solid #ececec;
-& .container {
-    display: flex;
-    }
-&-stroke {
-    display: block;
-    position: relative;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(---text-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 125ms;
-    }
-&-info-stud,
-&-info-port {
-    margin-right: 50px;
-    }
     
-    
-&-info-cont {
-    margin-right: 0;
+
+
+&__container {
+        display: flex;
     }
+
     
 &-info-num,
 &-info-mail {
@@ -38,20 +21,6 @@
     margin-right: 0;
     }
     
-    
-&-info {
-    display: flex;
-    }
-    
-&-list {
-    display: flex;
-    margin-left: auto;
-    }
-    
-&-text {
-    display: flex;
-    align-items: center;
-    }
     
 &-mail-icon {
     fill: currentColor;
@@ -73,8 +42,44 @@
 }
 
 
+.navigation__link{
+    display: block;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(---text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 125ms;
+    
+}
 
-.logo-header-first {
+
+.navigation__info{
+    display: flex;   
+}
+
+
+.navigation__text {
+    display: flex;
+    align-items: center;
+}
+
+
+.navigation__stud,
+.navigation__port {
+    margin-right: 50px;
+}
+
+
+.navigation__cont {
+    margin-right: 0;
+}
+
+
+.logo {
     color: black;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -92,22 +97,26 @@
 }
 
 
-
 .current,
-.header-link:hover,
-.header-link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
     color: var(--color-logo);
 }
 
 
+.connect {
+    display: flex;
+    margin-left: auto;
+}
 
 
-.mail,
-.number {
+.connect__mail,
+.connect__number {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    color: #757575;
     line-height: 1.7;
     letter-spacing: 0.02em;
     display: flex;
@@ -117,8 +126,8 @@
 
 
 .name-work,
-.mail,
-.number,
+.connect_mail,
+.connect_number,
 .mail-footer,
 .number-footer {
     color: #757575;
@@ -126,11 +135,11 @@
 }
 
 
-.mail:hover {
+.connect__mail:hover {
     color: #2196F3;
 }
 
 
-.number:hover {
+.connect__number:hover {
     color: #2196F3;
 }
