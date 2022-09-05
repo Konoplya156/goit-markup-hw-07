@@ -15,8 +15,7 @@
     padding-bottom: 200px;
 }
 
-.main-title {
-
+.hero__title {
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hat-bg.jpg);
@@ -26,7 +25,7 @@
 }
 
 
-.main-title-one {
+.hero__title-one {
     font-family: 'Roboto';
     font-style: normal;
     color: #FFFFFF;
@@ -41,7 +40,7 @@
 }
 
 
-.buy {
+.hero__buy {
     color: #ffffff;
     font-weight: 700;
     font-size: 16px;

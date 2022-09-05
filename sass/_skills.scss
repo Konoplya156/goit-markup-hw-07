@@ -1,14 +1,14 @@
-.skills-soc-icon {
+.skills-soc__icon {
     fill: #212121
 }
 
 
-.skill-text-list {
+.skills-list {
     display: flex;
 }
 
 
-.skill-text {
+.skills-list__text {
     margin-right: 30px;
 
     width: 270px;
@@ -16,7 +16,7 @@
 }
 
 
-.skill-page {
+.skill__page {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -28,7 +28,7 @@
     color: #212121;
 }
 
-.we-skills {
+.skills__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -49,7 +49,7 @@
 }
 
 
-.skills-soc-link {
+.skills-soc__link {
     width: 270px;
     height: 120px;
     border: #F5F4FA;
